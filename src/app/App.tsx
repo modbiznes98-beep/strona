@@ -3,17 +3,17 @@ import { ChevronDown, CheckCircle2, Award, TrendingUp, Shield, Wrench, Phone, Ma
 import { motion, AnimatePresence } from 'motion/react';
 import { CircularProgress } from './components/CircularProgress';
 import { MapWithRadius } from './components/MapWithRadius';
-import logo from 'figma:asset/5652e5598d173b8af38fe14d9a9612df1ecd0ac6.png';
-import slide1 from 'figma:asset/dc223e2b67359566e55dcb714be62444e51fc20b.png';
-import slide2 from 'figma:asset/8aca7db41a4a5635e88fe00aeba035ec3ef79b25.png';
-import slide3 from 'figma:asset/a99fe6a02b23de02fa9257d40f3c8e906c7834c6.png';
-import mycieDachow from 'figma:asset/da02aa70e9cb99c3111af88cf510d9be16bda2fa.png';
-import malowanieDachow from 'figma:asset/cbce160cc439e22246221e3d64699e4018b52245.png';
-import mycieBrukowej from 'figma:asset/c07c321f9e8aa07fea8d7a6f0929b67b78cadbff.png';
-import mycieElewacji from 'figma:asset/5c5a7cd44c478f3d79f37f0ce66393e1bdacdd3e.png';
-import malowanieOgrodzen from 'figma:asset/0e970ddb72a25b84c361a4f917627b2ac3c9613d.png';
-import przemysl from 'figma:asset/ceadda3270a274c02e50e984f1662f02df767298.png';
-import dlaczegoMy from 'figma:asset/611e31ecf73c4365e4c823f2f960e986fe9b3c78.png';
+import logo from "../imports/image-0.png";
+import slide1 from "../imports/image-1.png";
+import slide2 from "../imports/image-2.png";
+import slide3 from "../imports/image-0.png";
+import mycieDachow from "../imports/image-1.png";
+import malowanieDachow from "../imports/image-2.png";
+import mycieBrukowej from "../imports/image-0.png";
+import mycieElewacji from "../imports/image-1.png";
+import malowanieOgrodzen from "../imports/image-2.png";
+import przemysl from "../imports/image-0.png";
+import dlaczegoMy from "../imports/image-1.png";
 
 export default function App() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
