@@ -4,16 +4,16 @@ import { motion, AnimatePresence } from 'motion/react';
 import { CircularProgress } from './components/CircularProgress';
 import { MapWithRadius } from './components/MapWithRadius';
 import logo from "../imports/image-0.png";
-import slide1 from "../imports/image-1.png";
+import slide1 from "../imports/image-1.jpeg";
 import slide2 from "../imports/image-2.png";
-import slide3 from "../imports/image-0.png";
-import mycieDachow from "../imports/image-1.png";
-import malowanieDachow from "../imports/image-2.png";
-import mycieBrukowej from "../imports/image-0.png";
-import mycieElewacji from "../imports/image-1.png";
-import malowanieOgrodzen from "../imports/image-2.png";
-import przemysl from "../imports/image-0.png";
-import dlaczegoMy from "../imports/image-1.png";
+import slide3 from "../imports/image-3.jpg";
+import mycieDachow from "../imports/dach.png";
+import malowanieDachow from "../imports/2.png";
+import mycieBrukowej from "../imports/kostka.png";
+import mycieElewacji from "../imports/elewacja.png";
+import malowanieOgrodzen from "../imports/plot-1.png";
+import przemysl from "../imports/przemysl.png";
+import dlaczegoMy from "../imports/mycie-krakow.jpg";
 
 export default function App() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
